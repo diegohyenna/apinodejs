@@ -1,6 +1,6 @@
 var express = require('express')
 var bodyParser = require('body-parser')
-var port = '8080'
+var port = process.env.PORT || '8080'
 
 var app = module.exports = express()
 
